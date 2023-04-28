@@ -1,0 +1,49 @@
+body{
+    font-family: tahoma;
+    background-color: #e9ebee;
+}
+.header-signup{
+    height:100pt;
+    background-color: #3c5a99;
+    color:#d9dfeb;
+    padding: 4pt;
+}
+#title{
+    font-size: 40px;
+}
+#signup_button{
+    background-color: #42b72a;
+    width: 60pt;
+    text-align: center;
+    padding: 4pt;
+    border-radius: 4px;
+    float: right;
+}
+/* Form */
+#signup-Form{
+    background-color: white;
+    width:800px ;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.text_input{
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+    border:solid 1px #ccc;
+    padding: 4px;
+    font-size: 14px;
+}
+#button{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3c5a99;
+    font-weight: bold;
+    color: white;
+}

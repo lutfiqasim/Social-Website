@@ -1,0 +1,147 @@
+body{
+    background-color: #d0d8e4;
+    font-family: Tahoma;
+
+}
+#blue_bar{
+    height: 50px;
+    background-color: #405d9b;
+    color: #d9dfeb;
+}
+#main-page{
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+}
+#search_box{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#personal-Img{
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+}
+/* Content Area */
+#content-area{
+    width: 800px;
+    margin: auto;
+    /* background-color: black; */
+    min-height: 400px;
+}
+#cover-img{
+    background-color:white;
+    text-align: center;
+    color: #405d9b;
+}
+/* Profile picture */
+#profile-picture{
+    width: 150px;
+    margin-top: -200px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+#profile-picture2{
+    width: 150px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+/* Name */
+#personal-name{
+    display: block;
+    font-size: 20px;
+}
+/* Main nav */
+#profile-main-nav li{
+    display: inline-block;
+    margin: 2px 10px;
+    width: 100px;
+}
+/* Content section */
+#main-content-div{
+    display: flex;
+}
+/* Friends area */
+#friendsArea{
+    flex: 1;
+    min-height: 400px;
+    /* background-color: green; */
+}
+#friends-bar{
+    background-color: white;
+    min-height: 400px;
+    margin-top: 15px;
+    color: #aaa;
+    padding: 8px;
+}
+.firends-Img{
+    width: 75px;
+    float: left;
+    margin: 8px;
+}
+.friends{
+    clear: both;
+    font-size: 12px;
+    font-weight: bold;
+    color: #405d9b;
+}
+/* Posts area */
+#posts-area{
+    flex: 2.5;
+    min-height: 400px;
+    padding: 20px;
+    padding-right: 0px;
+    /* background-color: grey; */
+}
+/* New post area */
+#whats-on-your-Mind{
+    border: solid thin #aaa;
+    padding: 10px;
+    background-color: white;
+}
+textarea{
+    width: 100%;
+    border: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    height: 80px;
+}
+#post_button{
+    float: right;
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 4px;
+    width:50px;
+}
+/* posts */
+#post-bar{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+#posts{
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.userName-InPost{
+    font-weight: bold;
+    color: #405d9b;
+}
+.post-choices li{
+    display: inline-block;
+}
+.date-of-post{
+    color: #999;
+}
